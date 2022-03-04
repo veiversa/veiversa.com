@@ -1,0 +1,88 @@
+.navbar-toggler {
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 100%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #ffffff;
+}
+
+.veiversalogo {
+    margin-left: 2rem;
+    height: 38px;
+  }
+.scrollveiversalogo{
+    margin-left: 2rem;
+    height: 50px;
+    transition: all 0.2s;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .veiversalogo {
+      height: 30px;
+      margin-left: 10px;
+    }
+  }
+  #navınbarı{
+    box-shadow: -1px 3px 3px rgb(54, 54, 54);
+    opacity: .99;
+  }
+  .nav-links-position-mr{
+    margin-right: 50px;
+    color: #ffffff;
+  }
+  .nav-links-position-mr:hover{
+    color: #794747;
+  }
+  @media screen and (max-width: 580px) {
+    .nav-links-position-mr{
+      margin-right: 0px;
+    }
+  }

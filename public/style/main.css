@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "inc/nav.css";
+
+* {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.firstgroup {
+  width: 100%;
+  height: 650px;
+  float: left;
+  text-align: center;
+  vertical-align: auto;
+  background: url("../images/background/Sar_ve_Siyah_Kagt_Maksimalist_Twitch_Arka_Plan_1.png"); /*Resim koyak en iyisi*/
+  background-size: cover;
+  background-origin: border-box;
+  background-position: center center;
+}
+.firstgroup img {
+  margin-top: 160px;
+  width: 210px;
+  align-items: center;
+}
+.firstgroup h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 90px;
+}
+.firstgroup h3 {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.arrowbutton {
+  margin-top: 49px;
+  color: white;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 5px 50px;
+  background-color: #593edb;
+  border-color: #593edb;
+  transition: background-color 0.5s, border-color 0.5s;
+}
+.arrowbutton:hover {
+  background-color: #5033dd;
+  border-color: #5033dd;
+}
+
+
+.content {
+  display: none;
+}
+
+.loader-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #141313;
+}
+
+.contact:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+body::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.arrowup{
+    height: 50px;
+    width: 50px;
+    display: none;
+    text-decoration: none;
+    background: #593edb;
+    color: #ffffff;
+    border: 20px 20px;
+    position: fixed;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 50px;
+    right: 10px;
+    bottom: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.arrowup:hover{
+    background: #3c2a99;
+    color: #ffffff;
+}
+.about {
+  width: 100%;
+  height: 600px;
+  background: url("../images/background/Star_-_19289.gif");
+  background-repeat:no-repeat;
+  background-size: cover;
+  float: left;
+  text-align: center;
+}
+
+.about .about-content {
+  background-color: #242626;
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition:width 500ms ease, height 500ms ease;
+  display: block;
+  cursor: pointer;
+  line-height: 70vh;
+}
+.about .about-content h1 {
+  color:whitesmoke;
+  font-size: 40px;
+}
+.about h2 {
+  color:whitesmoke;
+  margin-top: 20px;
+  font-size: 25px;
+}
+@media screen and (max-width: 800px) {
+  .about .about-content {
+    width: 90%;
+    height: 60%;
+    line-height: 100px;
+  }
+  .about .about-content h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 18px;
+  }
+  .about{
+    height: 400px;
+  }
+}
+.project{
+  width: 100%;
+  height: 600px;
+  background: #0e0e0e;
+  float: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .project h2{
+    font-size: 25px;
+  }
+}
+.ekipfoto{
+  height: 180px;
+  width: 180px;
+ border-radius: 50%;
+ margin-bottom: 20px;
+}
+.ekip h5 {
+  font-size: 20px;
+}
+.footer{
+  background: #5033dd;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;  
+}
+.team .ekip a{
+  color: white;
+  text-decoration: none;
+}
+.projelerimiz{
+  background-color: #141313;
+  width: 100%;
+  height: 600px;
+}
+.box1{
+  width: 300px;
+  height: 400px;
+  background-color: #111111;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.box1 img{
+  width: 80px;
+  padding-top: 20px;
+  padding-left: 110px;
+}
+.ms-3{
+margin-top: 20px;
+}
